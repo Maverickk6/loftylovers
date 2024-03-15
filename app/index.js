@@ -4,9 +4,10 @@ import tw from "twrnc";
 import { Redirect } from "expo-router";
 
 const index = () => {
+
   return (
     <View>
-      <Redirect href="/(authenticate)/login"/>
+      <Redirect href="/(authenticate)/login" />
     </View>
   );
 };
